@@ -39,6 +39,7 @@ FROM AdventureWorks2014.ProductCategory;
 SELECT ProductSubcategoryID, ProductCategoryID, Name, rowguid, ModifiedDate
 FROM AdventureWorks2014.ProductSubcategory;
 
+<<<<<<< HEAD
 -- Selecionando a tabela de cliente
 SELECT *
 FROM AdventureWorks2014.Customer;
@@ -52,3 +53,5 @@ SELECT BusinessEntityID, PersonType, NameStyle, Title, FirstName, MiddleName, La
 FROM AdventureWorks2014.Person;
 
 
+=======
+>>>>>>> 50c7e12b023394d852e1e78949907e7275e3c5e2
