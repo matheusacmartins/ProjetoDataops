@@ -43,3 +43,12 @@ FROM AdventureWorks2014.ProductSubcategory;
 SELECT *
 FROM AdventureWorks2014.Customer;
 
+-- Tabela de funcionarios
+SELECT BusinessEntityID, NationalIDNumber, LoginID, OrganizationNode, OrganizationLevel, JobTitle, BirthDate, MaritalStatus, Gender, HireDate, SalariedFlag, VacationHours, SickLeaveHours, CurrentFlag, rowguid, ModifiedDate
+FROM AdventureWorks2014.Employee;
+
+-- Tabela de pessoas
+SELECT BusinessEntityID, PersonType, NameStyle, Title, FirstName, MiddleName, LastName, Suffix, EmailPromotion, AdditionalContactInfo, Demographics, rowguid, ModifiedDate
+FROM AdventureWorks2014.Person;
+
+
